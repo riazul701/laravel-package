@@ -18,3 +18,5 @@ Route::get('/', function () {
 });
 
 Route::get('generate-pdf','PDFController@generatePDF');
+
+Route::get('generate-pdf-2','PDFController@generatePDF_2');

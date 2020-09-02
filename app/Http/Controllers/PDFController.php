@@ -19,4 +19,17 @@ class PDFController extends Controller
 
         return $pdf->download('itsolutionstuff.pdf');
     }
+
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function generatePDF_2()
+    {
+        $data = ['title' => 'Welcome to ItSolutionStuff.com'];
+        $pdf = PDF::loadView('myPDF_2', $data);
+
+        return $pdf->download('itsolutionstuff.pdf');
+    }
 }

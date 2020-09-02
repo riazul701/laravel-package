@@ -1,6 +1,7 @@
 # Package - PDF
 
-[Laravel - Generate PDF File Tutorial](https://www.itsolutionstuff.com/post/laravel-6-generate-pdf-file-tutorialexample.html)
+* [Laravel - Generate PDF File Tutorial](https://www.itsolutionstuff.com/post/laravel-6-generate-pdf-file-tutorialexample.html)
+* [Laravel - Create PDF File with Image Example](https://www.itsolutionstuff.com/post/laravel-create-pdf-file-with-image-exampleexample.html)
 
 ### Composer and Artisan Commands
 ```shell script
