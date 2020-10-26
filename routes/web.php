@@ -16,3 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('my-captcha', 'HomeController@myCaptcha')->name('myCaptcha');
+Route::post('my-captcha', 'HomeController@myCaptchaPost')->name('myCaptcha.post');
+Route::get('refresh_captcha', 'HomeController@refreshCaptcha')->name('refresh_captcha');
