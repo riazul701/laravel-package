@@ -16,3 +16,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('dropzone', 'DropzoneController@dropzone');
+Route::post('dropzone/store', 'DropzoneController@dropzoneStore')->name('dropzone.store');
