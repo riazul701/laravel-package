@@ -16,3 +16,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('image-crop', 'ImageController@imageCrop');
+Route::post('image-crop', 'ImageController@imageCropPost');
