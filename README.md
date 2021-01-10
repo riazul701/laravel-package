@@ -12,3 +12,6 @@ php artisan migrate
 php artisan make:controller Select2AutocompleteController
 php artisan serve
 ```
+
+### Run Project
+[http://localhost:8000/select2-autocomplete](http://localhost:8000/select2-autocomplete)
