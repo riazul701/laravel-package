@@ -2,8 +2,7 @@
 <html>
 <head>
     <title>How to use font awesome in Laravel? - ItSolutionStuff.com</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/fontawesome.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" />
+    <link type="text/css" rel="stylesheet" href="{{ mix('css/app.css') }}">
     <style type="text/css">
         i{
             font-size: 50px !important;
