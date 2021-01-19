@@ -16,3 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('posts','PostController@index');
+Route::get('posts/store','PostController@store');
+Route::get('posts_2','PostController@index');
