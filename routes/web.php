@@ -16,3 +16,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('get-curl', 'HomeController@getCURL');
+Route::get('get-post-curl', 'HomeController@getPostCURL');
+Route::get('get-patch-curl', 'HomeController@getPatchCURL');
+Route::get('get-delete-curl', 'HomeController@getDeleteCURL');
